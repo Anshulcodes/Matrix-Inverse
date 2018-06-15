@@ -21,11 +21,11 @@ int main()
             printf("Inverse of the matrix is %.2f ", 1/a[1][1]);
         }
     case 2:
-        for(i=1; i<= 2; i++)
+        for(i=0; i< 2; i++)
         {
-            for(j=1; j<= 2; j++)
+            for(j=0; j< 2; j++)
             {
-                printf("Enter the element a%d%d \n ",i,j);
+                printf("Enter the element a[%d][%d] \n ",i+1,j+1);
                 scanf("%f",&a[i][j]);
             }
         }
